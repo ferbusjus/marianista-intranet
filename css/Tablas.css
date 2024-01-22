@@ -1,0 +1,262 @@
+hr {border: 1px dashed #C0C0C0; height: 0; width: 100%;}
+
+#container {
+	margin: 0 auto;
+	width: 100%;
+}
+
+footer{
+    background:#1C4583;
+   color:#fff;
+   padding:10px;
+   text-align: center
+
+}
+footer a{
+    color:#FF8000;
+    text-decoration: none;
+}
+footer a:hover{
+    color:#F2F5A9;
+
+}
+
+
+
+/*
+ * DataTables framework
+ */
+
+/*
+div.dataTables_wrapper {
+    border-radius: 1px;
+    border: solid 1px #f1f1f1;
+	margin: 5px;
+    box-shadow: 0 0 10px #333;
+    
+    -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+}
+*/
+
+div.dataTables_length {
+	float: left;
+}
+
+div.dataTables_filter {
+	float: right;
+}
+
+div.dataTables_info {
+	padding: 9px 6px 6px 6px;
+	float: left;
+}
+
+div.dataTables_paginate {
+	float: right;
+}
+
+div.dataTables_length,
+div.dataTables_filter,
+div.dataTables_paginate {
+	padding: 6px;
+}
+
+/* Self clearing - http://www.webtoolkit.info/css-clearfix.html */
+.dataTables_wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+html[xmlns] .dataTables_wrapper {
+	display: block;
+}
+ 
+* html .dataTables_wrapper {
+	height: 1%;
+}
+
+
+/*
+ * Table styles
+ */
+.pretty {
+	width: 100%;
+	clear: both;
+        border-color:#006699;
+        border-collapse: collapse;
+         text-align: left; 
+         font: normal 12px/150% Arial, Helvetica, sans-serif;
+          background: #fff; 
+          overflow: hidden;
+           border: 1px solid #006699;
+            -webkit-border-radius: 3px; 
+            -moz-border-radius: 3px; 
+            border-radius: 3px;
+}
+
+.pretty td,
+.pretty th {
+	 padding: 3px 10px;
+}
+
+/* Header cells */
+.pretty thead th {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );
+        background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+        background-color:#006699; 
+        color:#FFFFFF; 
+        font-size: 15px; 
+        font-weight: bold; 
+        border-left: 1px solid #0070A8; 
+        cursor: pointer;
+        
+}
+
+/* Body cells */
+.pretty tbody th {
+	text-align: left;
+	background: #91c5d4;
+        padding: 3px 10px;
+}
+	
+.pretty tbody td {
+	color: #00496B; border-left: 1px solid #E1EEF4;font-size: 12px;font-weight: normal; 
+}
+		
+.pretty tbody tr.odd td { 
+	background: #bcd9e1;
+}
+
+/* Footer cells */	
+.pretty tfoot th {
+	background: #b0cc7f;
+	text-align: left;
+        
+}
+	
+.pretty tfoot td {
+	background: #d7e1c5;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+/*
+ * Pagination
+ */
+a.paginate_button,
+a.paginate_active {
+	display: inline-block;
+	background-color: #ffffff;
+	padding: 2px 6px;
+	margin-left: 2px;
+	cursor: pointer;
+	*cursor: hand;
+        border:solid 1px #9aafe5; margin-right:2px;
+        
+}
+
+a.paginate_active {
+	border:0; margin:0; padding:0; font-size:11px; list-style:none; /* savers */ float:left;
+}
+
+a.paginate_button_disabled {
+	color: #999;
+cursor: not-allowed;
+background-color: #fff;
+border-color: #ddd;
+border:solid 1px #9aafe5; margin-right:2px;
+}
+.paging_full_numbers a:active {
+	outline: none;
+        background:#2e6ab1; 
+}
+.paging_full_numbers a:hover {
+	text-decoration: none;
+        border:solid 1px #0e509e;
+}
+
+div.dataTables_paginate span>a {
+	width: 15px;
+	text-align: center;
+}
+
+
+/*
+ * Sorting
+ */
+.pretty thead th.sorting_asc {
+	background: #006699 url('images/sort_asc.png') no-repeat right center;
+}
+
+.pretty thead th.sorting_desc {
+	background: #006699 url('images/sort_desc.png') no-repeat right center;
+}
+
+.pretty thead th.sorting {
+	background: #006699 url('images/sort_both.png') no-repeat right center;
+}
+.modal1
+        {
+            position:fixed;
+            z-index: 999;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left:0;
+            background-color: white;
+            filter: alpha(opacity=60);
+            opacity: 0.7;
+            -moz-opacity: 0.7;
+        }
+		.center1
+        {
+            margin: 300px auto;
+            padding: 10px;
+            width: 300px;
+            background-color: white;
+            border-radius: 10px;
+            filter: alpha(opacity=10);
+            opacity: 2;
+            -moz-opacity: 1;
+            font-size: large;
+             color: black; 
+             border: solid 1px #999;
+        }
+
+        .ImpresionPequena
+    {
+        COLOR: #000000;
+        BORDER-RIGHT : #000000 0px solid;
+        BORDER-TOP   : #000000 0px solid;
+        BORDER-BOTTOM: #000000 0px solid;
+        BORDER-LEFT  : #000000 0px solid;
+        font-style: normal;
+        font-family: Arial;
+        FONT-WEIGHT: normal;
+        font-style: normal;
+        FONT-SIZE: 9px;
+        BACKGROUND-COLOR: #FFFFFF;
+    }
+    .ImpresionPequena2
+    {
+        COLOR: #000000;
+        BORDER-RIGHT : #000000 0px solid;
+        BORDER-TOP   : #000000 0px solid;
+        BORDER-BOTTOM: #000000 0px solid;
+        BORDER-LEFT  : #000000 0px solid;
+        font-style: normal;
+        font-family: Arial;
+        FONT-WEIGHT: normal;
+        font-style: normal;
+        FONT-SIZE: 8px;
+        BACKGROUND-COLOR: #FFFFFF;
+    }
+
+

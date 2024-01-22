@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteCond $1 !^(index.php|css|md|js|assets|images|gastos_files|boletas|Bancos|recibos|img|fonts|robots.txt)
+RewriteRule ^(.*)$ /intranet/index.php/$1 [L]
+ErrorDocument 404 /intranet/index.php
+
+#<IfModule mime_module>
+#AddHandler  application/x-httpd-ea-php56 .php .php7 .phtml
+#</IfModule>
+
+
+#AddHandler application/x-httpd-php56 .php .php5 .php4 .php3
